@@ -22,7 +22,7 @@ void calculator_menu(void)
     printf("\nAvailable Operations\n");
     printf("\n 1.Basic Calculations\n 2.Trigonometry\n3.Dimension Conversion\n4.Binary Decimal Conversion\n5. Exit");
     printf("\n\tEnter your choice\n");
-    char ch[200]="D:\text.txt";
+    char chi[200]="D:\\text.txt";
    
 
     scanf("%d", &calculator_operation);
@@ -32,7 +32,7 @@ void calculator_menu(void)
         case 1:
              
 
-            files(ch);
+            hello(chi);
             
 
             break;

@@ -1,10 +1,10 @@
 #include"filetest.h"
 
-int main()
+void hello(char path[200])
 {
-    char path[200];
+    //char path[200];
     printf("enter path\n");
-    scanf("%s",path);
+   // scanf("%s",path);
     files(path);
     return 0;
   }
@@ -15,7 +15,7 @@ void files(char address[200])
     char line[MAX_LINE_LENGTH] = {0};
     unsigned int line_count = 0;
      FILE *file = fopen(address, "r");
-    
+    printf("%s",address);
     if (!file)
     {
         perror(address);
