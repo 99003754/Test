@@ -11,6 +11,7 @@ void hello(char path[200])
     
 void files(char address[200])
 {
+  char op[200];
 
     char line[MAX_LINE_LENGTH] = {0};
     unsigned int line_count = 0;
@@ -28,11 +29,12 @@ void files(char address[200])
   //  printf("line is %d\n",line);
         
         //printf("%s\n",line);
-        function(line);
+        *op=function(line);
 
        
 
 }
+printf("%s\n",op);
 }
 char* function(char input[100])
 {
@@ -85,6 +87,7 @@ printf("%c",output[k]);
 k++;
 }
 }
+
 //printf(";");
 //printf("\n");
 return output;
