@@ -11,7 +11,7 @@ SRC = project_main.c\
 
 
  #All test source files
-TEST_SRC = src\filetest.c\
+TEST_SRC = src/filetest.c\
 test/test_calculator_operations.c\
 unity/unity.c
 
