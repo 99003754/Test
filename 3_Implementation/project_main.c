@@ -1,8 +1,5 @@
 //include files here header
-#include<bin_conv.h>
-#include<trignometic.h>
-#include<basic.h>
-#include<dim.h>
+#include<filetest.h>
 #include<math.h>
 #define VALID   (1)
 #define INVALID (0)
@@ -25,6 +22,7 @@ void calculator_menu(void)
     printf("\nAvailable Operations\n");
     printf("\n 1.Basic Calculations\n 2.Trigonometry\n3.Dimension Conversion\n4.Binary Decimal Conversion\n5. Exit");
     printf("\n\tEnter your choice\n");
+    char ch[200]="D:\text.txt";
    
 
     scanf("%d", &calculator_operation);
@@ -34,22 +32,22 @@ void calculator_menu(void)
         case 1:
              
 
-            basics();
+            files(ch);
             
 
             break;
         case 2:
 
-            trig_choose();
+            //trig_choose();
             
 
             break;
         case 3:
-            dim_con();
+           // dim_con();
 
             break;
         case 4:
-        dectobin();
+        //dectobin();
 
             break;
         case 5: 

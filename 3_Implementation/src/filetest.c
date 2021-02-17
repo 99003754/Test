@@ -81,7 +81,7 @@ for(j=0;j<temp;j++)
 if(j>start)
 {
 output[k]=input[j];
-//printf("%c",output[k]);
+printf("%c",output[k]);
 k++;
 }
 }
