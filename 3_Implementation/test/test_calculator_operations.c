@@ -53,7 +53,7 @@ int main()
 void test1(void)
 {
 
-  TEST_ASSERT_EQUAL(to LTTS, function("Garbage$Welcome $to LTTS;ignore"));
+  TEST_ASSERT_EQUAL("to LTTS", function("Garbage$Welcome $to LTTS;ignore"));
   
 }
 
