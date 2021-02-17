@@ -30,11 +30,12 @@ void files(char address[200])
         
         //printf("%s\n",line);
         *op=function(line);
+        printf("%s\n",op);
 
        
 
 }
-printf("%s\n",op);
+
 }
 char* function(char input[100])
 {
