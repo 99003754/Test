@@ -6,12 +6,12 @@ void hello(char path[200])
     printf("enter path\n");
    // scanf("%s",path);
     files(path);
-    return 0;
+   
   }
     
 void files(char address[200])
 {
-  char op[200];
+  char *op[200];
 
     char line[MAX_LINE_LENGTH] = {0};
     unsigned int line_count = 0;
@@ -29,15 +29,16 @@ void files(char address[200])
   //  printf("line is %d\n",line);
         
         //printf("%s\n",line);
-        *op=function(line);
-        printf("%s\n",op);
+        printf("%s",function(line));
+
+
 
        
 
 }
 
 }
-char* function(char input[100])
+const char* function(char input[100])
 {
 int i,j=0,start=0,k=0;
 int temp;
@@ -78,19 +79,19 @@ temp++;
 }
 temp=start+end;
 
-printf("$");
+//printf("$");
 for(j=0;j<temp;j++)
 {
 if(j>start)
 {
 output[k]=input[j];
-printf("%c",output[k]);
+//printf("%c",output[k]);
 k++;
 }
 }
 
 //printf(";");
-//printf("\n");
+printf("\n");
 return output;
 }
 
