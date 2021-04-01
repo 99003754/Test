@@ -39,3 +39,4 @@
 ### AU SMALL FIN BANK -- good, can't tell valuation is cheap or costly..i beleive to be medium risk
 ### mazgaon dock      -- good, government(bad point) ,
 ### hindustan zinc    -- good, mr-hr
+### hero moto corp    -- goood , mr
